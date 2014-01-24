@@ -12,11 +12,11 @@ Features
 
 Requirements
 --
-This script has solely been tested on Windows 7. It should work fine for pretty much all popular Windows releases.
+This script has solely been tested on Windows 7. It should work fine for pretty much all popular Windows releases. For the time being, it only works with the console based [WSH](https://en.wikipedia.org/wiki/Windows_Script_Host), CScript that is.
 
 Usage
 --
-Download and call it from a prompt. For a greater deployment, move the script to a folder contained in the [PATH](https://en.wikipedia.org/wiki/Path_%28variable%29) environment variable.
+Download and call it from a prompt with `CScript //H:CScript VBSH.vbs`. For a greater deployment, move the script to a folder contained in the [PATH](https://en.wikipedia.org/wiki/Path_%28variable%29) environment variable and change the default script host to CScript with `CScript //H:CScript //S`.
 
 Examples
 --

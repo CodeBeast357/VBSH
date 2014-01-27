@@ -2,7 +2,7 @@ VBSH
 ==
 Overview
 --
-This script provides <abbr title="Read-Eval-Print-Loop">REPL</abbr> features to <abbr title="Visual Basic Script">VBS</abbr> commands in a Windows shell prompt. It uses the [`Execute`](http://msdn.microsoft.com/en-us/library/03t418d2.aspx) statement in order to evaluate the commands passed to the prompt.
+This script provides [REPL](https://en.wikipedia.org/wiki/REPL "Read-Eval-Print-Loop") features to [VBScript](https://en.wikipedia.org/wiki/VBScript "Visual Basic Script") commands in a Windows shell prompt. It uses the [`Execute`](http://msdn.microsoft.com/en-us/library/03t418d2.aspx) statement in order to evaluate the commands passed to the prompt.
 
 Features
 --
@@ -12,7 +12,7 @@ Features
 
 Requirements
 --
-This script has solely been tested on Windows 7. It should work fine for pretty much all popular Windows releases. For the time being, it only works with the console based [WSH](https://en.wikipedia.org/wiki/Windows_Script_Host), CScript that is.
+For the time being, it only works with the console based [WSH](https://en.wikipedia.org/wiki/Windows_Script_Host), CScript that is. This script has solely been tested on Windows 7. It should work fine for pretty much all popular Windows releases.
 
 Usage
 --

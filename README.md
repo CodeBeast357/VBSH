@@ -6,6 +6,7 @@ This script provides [REPL](https://en.wikipedia.org/wiki/REPL "Read-Eval-Print-
 
 Features
 --
+* Scope separation: simply use `VBSH` within
 * Loop detection: loop statements trigger multiline support
 * [`Stop`](http://msdn.microsoft.com/en-us/library/zw86czy2.aspx) statement: to exit the script
 

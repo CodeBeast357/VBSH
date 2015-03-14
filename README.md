@@ -28,16 +28,13 @@ Printing "Hello world"
 Summing numbers from 0 to 3
 
     VBSH> sum = 0
-    
     VBSH> For i = 0 To 3
     ...       sum = sum + i
     ...   Next
-    
     VBSH> WScript.Echo sum
     6
 
 Starting an Excel application and making it shown
 
     VBSH> Set oExcel = CreateObject("Excel.Application")
-    
     VBSH> oExcel.Visible = True

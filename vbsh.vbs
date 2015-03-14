@@ -1,4 +1,4 @@
-Class VBSH
+Class NamespaceVBSH
 	Private headingmulti
 	Private footermulti
 	Private countmulti
@@ -69,7 +69,7 @@ Class VBSH
 						cmd = LoopInput(input, footer)
 					End If
 					On Error Resume Next
-					WScript.StdOut.Write Execute(cmd) & vbCrLf
+					WScript.StdOut.Write Execute(cmd)
 					If Err.Number <> 0 Then
 						PrintError
 						Err.Clear
@@ -79,4 +79,7 @@ Class VBSH
 		Wend
 	End Sub
 End Class
-Set sh = New VBSH
+Sub VBSH()
+	Set sh = New NamespaceVBSH
+End Sub
+VBSH

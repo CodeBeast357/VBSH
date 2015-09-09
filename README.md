@@ -16,7 +16,7 @@ For the time being, it only works with the console based [WSH](https://en.wikipe
 
 Usage
 --
-Download and call it from a prompt with `CScript //H:CScript VBSH.vbs`. For a greater deployment, move the script to a folder contained in the [PATH](https://en.wikipedia.org/wiki/Path_%28variable%29) environment variable and change the default script host to CScript with `CScript //H:CScript //S`.
+Download and run it. For a greater deployment, move the script to a folder contained in the [PATH](https://en.wikipedia.org/wiki/Path_%28variable%29) environment variable.
 
 Examples
 --

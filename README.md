@@ -6,9 +6,9 @@ This script provides [REPL](https://en.wikipedia.org/wiki/REPL "Read-Eval-Print-
 
 Features
 --
-* Scope separation: simply use `VBSH` within
 * Loop detection: loop statements trigger multiline support
 * [`Stop`](http://msdn.microsoft.com/en-us/library/zw86czy2.aspx) statement: to exit the script
+* Automatic detection of output value
 
 Requirements
 --
@@ -22,7 +22,7 @@ Examples
 --
 Printing "Hello world"
 
-    VBSH> WScript.Echo "Hello world"
+    VBSH> "Hello world"
     Hello world
 
 Summing numbers from 0 to 3
@@ -31,7 +31,7 @@ Summing numbers from 0 to 3
     VBSH> For i = 0 To 3
     ...       sum = sum + i
     ...   Next
-    VBSH> WScript.Echo sum
+    VBSH> sum
     6
 
 Starting an Excel application and making it shown

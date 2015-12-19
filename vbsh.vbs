@@ -75,6 +75,10 @@ Class NamespaceVBSH
 					End If
 					On Error Resume Next
 					WScript.StdOut.Write Execute(cmd)
+					If Err.Number = 13 Or Err.Number = 1024 Then
+						Err.Clear
+						Execute("WScript.Echo " & cmd)
+					End If
 					If Err.Number <> 0 Then
 						PrintError
 						Err.Clear

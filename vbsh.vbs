@@ -1,8 +1,3 @@
-If LCase(Right(WScript.FullName, 11)) <> "cscript.exe" Then
-	CreateObject("WScript.Shell").Run "cscript.exe """ & WScript.ScriptFullName & """", 10
-	WScript.Quit
-End If
-
 Class NamespaceVBSH
 	Private headingmulti
 	Private footermulti
